@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiLearnQuiz"
+             x:Class="MauiLearnQuiz.ResultPage">
+    <VerticalStackLayout Padding="30">
+        <Label Text="Résultat" FontSize="32" />
+        <Label x:Name="lblScore" FontSize="24" />
+        <Label x:Name="lblMessage" FontSize="18" />
+    </VerticalStackLayout>
+</ContentPage>

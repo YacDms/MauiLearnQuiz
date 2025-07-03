@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MauiLearnQuiz"
+             x:Class="MauiLearnQuiz.LecturePage">
+    <ScrollView>
+        <VerticalStackLayout Padding="20">
+            <Label Text="Introduction à l’IA" FontSize="28" FontAttributes="Bold" />
+            <Label Text="L’intelligence artificielle permet aux machines de simuler l’intelligence humaine..." Margin="0,0,10,0"/>
+            
+            <Label Text="🧠 Qu’est-ce que l’intelligence artificielle (IA) ?" FontSize="20" FontAttributes="Bold" />
+            <Label Text="L’IA regroupe un ensemble de technologies permettant aux machines de simuler certaines capacités humaines : apprendre, raisonner, percevoir, décider ou interagir." Margin="0,0,10,0" />
+
+            <Label Text="💬 Exemple : les assistants vocaux comme Siri ou Google Assistant utilisent l’IA pour comprendre ta voix et te répondre intelligemment." Margin="0,0,30,0"/>
+
+            <Label Text="🛠️ Quels langages sont utilisés ?" FontSize="20" FontAttributes="Bold" />
+            <Label Text="Le langage le plus utilisé pour développer des systèmes d’IA est Python, grâce à ses bibliothèques puissantes comme TensorFlow, Scikit-learn ou PyTorch." Margin="0,0,30,0"/>
+
+            <Label Text="📚 Apprentissage automatique (machine learning)" FontSize="20" FontAttributes="Bold" />
+            <Label Text="Le machine learning permet à une machine d’apprendre automatiquement à partir de données. Elle détecte des modèles et peut ensuite faire des prédictions ou des choix." Margin="0,0,30,0" />
+
+            <Label Text="🔍 Domaines d’application de l’IA" FontSize="20" FontAttributes="Bold" />
+            <Label Text="L’IA s’utilise dans : la vision par ordinateur, le traitement automatique du langage, la santé, la finance, la robotique, etc." Margin="0,0,30,0" />
+
+            <Label Text="🔬 Deep learning" FontSize="20" FontAttributes="Bold" />
+            <Label Text="Le deep learning est un sous-domaine du machine learning basé sur les réseaux de neurones. Il est utilisé pour la reconnaissance faciale, les voitures autonomes ou encore les chatbots." Margin="0,0,30,0" />
+
+            <Label Text="⚠️ Les limites et risques de l’IA" FontSize="20" FontAttributes="Bold" />
+            <Label Text="L’IA peut reproduire des biais présents dans les données, ou remplacer certains métiers. D’où l’importance de la concevoir de manière éthique et responsable." Margin="0,0,30,0" />
+
+            <Label Text="🎯 En résumé" FontSize="20" FontAttributes="Bold" />
+            <Label Text="L’IA n’est pas magique. C’est un outil puissant qui permet de rendre les machines intelligentes, mais qui doit être bien programmé, entraîné et encadré." />
+
+            <Button Text="Passer au quiz" Clicked="OnStartQuiz" Margin="0,20,0,0" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
